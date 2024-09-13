@@ -1,0 +1,18 @@
+[
+    {
+        "model": "usaapi.state",
+        "pk": 1,
+        "fields": {
+            "name": "Tennessee",
+            "code": "TN"
+        }
+    },
+    {
+        "model": "usaapi.state",
+        "pk": 2,
+        "fields": {
+            "name": "Utah",
+            "code": "UT"
+        }
+    }
+]

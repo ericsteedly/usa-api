@@ -1,0 +1,11 @@
+[
+    {
+        "model": "usaapi.userdetail",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "home_state": 1,
+            "visited_states": [1, 2]
+        }
+    }
+]
