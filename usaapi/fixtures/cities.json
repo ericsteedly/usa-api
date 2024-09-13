@@ -1,0 +1,20 @@
+[
+    {
+        "model": "usaapi.city",
+        "pk": 1,
+        "fields": {
+            "name": "Nashville",
+            "state": 1,
+            "population": 2072283
+        }
+    },
+    {
+        "model": "usaapi.city",
+        "pk": 2,
+        "fields": {
+            "name": "Salt Lake City",
+            "state": 2,
+            "population": 1257936
+        }
+    }
+]
