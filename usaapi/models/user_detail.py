@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from .state import State
 
 class UserDetail(models.Model):
-    user = models.OneToOneField(User, on_delete=models.DO_NOTHING)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     home_state = models.ForeignKey(State, on_delete=models.CASCADE, related_name='home_state_users')
     visited_states = models.ManyToManyField(
         "State",
