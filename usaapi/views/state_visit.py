@@ -7,6 +7,7 @@ from .state import StateSerializer
 
 
 class StateVisits(ViewSet):
+    
     def list(self, request):
         state_visits = StateVisit.objects.all()
         serialized_visits = StateVisitSerializer(state_visits, many=True)

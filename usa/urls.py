@@ -12,6 +12,7 @@ router = routers.DefaultRouter(trailing_slash=False)
 router.register(r"states", States, "states")
 router.register(r"cities", Cities, "cities")
 router.register(r"state_visits", StateVisits, "state_visits")
+router.register(r"user_details", UserDetails, "user_details")
 
 urlpatterns = [
     path("", include(router.urls)),
