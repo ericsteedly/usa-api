@@ -1,4 +1,4 @@
 from .state import State
-from .userdetail import UserDetail
+from .user_detail import UserDetail
 from .city import City
 from .state_visit import StateVisit
